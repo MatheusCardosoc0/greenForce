@@ -1,4 +1,3 @@
-import React from 'react'
 import Fundo1 from "../assets/pic.png"
 import Products from '../assets/product.png'
 
@@ -29,7 +28,7 @@ const About = () => {
         </div>
 
         <img src={Products}
-          className="w-[380px] h-[400px] lg:w-[700px] lg:h-[700px] drop-shadow-[9px_120px_40px_black]" />
+          className="w-[380px] h-[400px] lg:w-[700px] lg:h-[700px] drop-shadow-[9px_180px_40px_black] lg:drop-shadow-[9px_200px_40px_black]" />
       </div>
     </main>
   )
